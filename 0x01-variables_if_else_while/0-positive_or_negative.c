@@ -1,15 +1,27 @@
 #include <stdlib.h>
 #include <time.h>
-/* main - Entry point
- * if =< -1 print (n "is negetive")
- * else if => 1 print (n "is positive")
- * else print (n "is zero")
+/**
+ * main - prints ("if n is negetinive")
+ * Return: 0
  */
- int main(void)
+int main(void)
 {
+	/* local variable definition */
 	int n;
+
 	srand(time(0));
-	n = rand() -RAND_MAX / 2;
-	if (n =< -1 )
+	n = rand() - RAND_MAX / 2;
+	if (n < 0)
+	{
+		printf(n "is negetive")
+	}
+	else if (n > 0)
+	{
+		printf(n "is positive")
+	}
+	else
+	{
+		printf(n "is negetive")
+	}
 	return (0);
 }
