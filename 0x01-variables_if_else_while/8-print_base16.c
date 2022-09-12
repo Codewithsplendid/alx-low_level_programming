@@ -5,15 +5,15 @@
  */
 int main(void)
 {
-	int n, a;
+	int number, alpha;
 
-	for (n = '0'; n <= '9'; n++)
+	for (number = '0'; number <= '9'; number++)
 	{
-		putchar('n');
+		putchar(number);
 	}
-	for (a = 'a'; a <= 'f'; a++)
+	for (alpha = 'a'; alpha <= 'f'; alpha++)
 	{
-		putchar('a');
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
