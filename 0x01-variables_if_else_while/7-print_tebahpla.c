@@ -5,13 +5,9 @@
  */
 int main(void)
 {
-	int n, a;
+	int a;
 
-	for (n = '0'; n <= '9'; n++)
-	{
-		putchar('n');
-	}
-	for (a = 'a'; a <= 'f'; a++)
+	for (a = 'z'; a >= 'a'; a++)
 	{
 		putchar('a');
 	}
