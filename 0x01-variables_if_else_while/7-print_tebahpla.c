@@ -5,11 +5,11 @@
  */
 int main(void)
 {
-	int a;
+	int alpha;
 
-	for (a = 'z'; a >= 'a'; z++)
+	for (alpha = 'z'; alpha >= 'a'; alpha++)
 	{
-		putchar('a');
+		putchar(alpha);
 	}
 	putchar('\n');
 	return (0);
