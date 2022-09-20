@@ -7,5 +7,8 @@
  */
 void _puts(char *str)
 {
-	_putchar(str);
+	char words;
+
+	words = _putchar(str);
+	return (words);
 }
