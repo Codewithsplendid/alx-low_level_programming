@@ -1,14 +1,12 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _puts - prints a string
- * @words: string to print out
+ * @str: string to print out
  * Return: words
  */
 void _puts(char *str)
 {
-	char words;
-
-	str = &words;
-	_puts(str);
+	printf("%s\n", str);
 }
