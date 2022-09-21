@@ -2,13 +2,13 @@
 
 /**
  * _puts - prints a string
- * @str: string to print out
- * Return: string
+ * @words: string to print out
+ * Return: words
  */
 void _puts(char *str)
 {
 	char words;
 
-	words = _putchar(str);
-	return (words);
+	str = &words;
+	_puts(str);
 }
