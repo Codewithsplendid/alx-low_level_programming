@@ -6,11 +6,23 @@
  * *_strcat - Concatenates two string
  * @dest: First string
  * @src: Second string
- * Return: void
+ * Return: pointer to string
  */
 char *_strcat(char *dest, char *src)
 {
-	printf("%s%s", dest, src);
-	printf("%s", src); 
-	return (0);
+	int a = 0;
+	int b = 0;
+
+	while (dest[a] != '\0')
+	{
+		a++;
+	}
+	while (src[b] != '\0')
+	{
+		dest[a] = src[b];
+		b++;
+		a++;
+	}
+	dest[a] = '\0';
+	return (dest);
 }
