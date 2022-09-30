@@ -6,7 +6,7 @@
  * @argv: arrgument vector
  * Return: String
  */
-int main(int argc, char *argv[])
+int main(char *argv[])
 {
 	printf("%s\n", argv[0]);
 }
