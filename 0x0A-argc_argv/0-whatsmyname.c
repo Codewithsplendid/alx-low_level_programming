@@ -5,7 +5,7 @@
  * main - prints a name
  * @argc: arrgument count
  * @argv: arrgument vector
- * Return: String
+ * Return: 0 (Success)
  */
 int main(int argc __attribute__((unused)), char *argv[])
 {
