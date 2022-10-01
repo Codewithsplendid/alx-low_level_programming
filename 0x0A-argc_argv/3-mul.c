@@ -14,13 +14,9 @@ int main(int argc, char *argv[])
 	char s[] = Error;
 
 	if (i < 1)
-	{
-		printf("%s\n", s);
-		return (1);
-	}
+		printf("%s\n", *s);
 	else
-	{
-		printf("%d\n", *s);
-	}
-	return (0);
+		printf("%d\n", result);
+
+	return (1);
 }
