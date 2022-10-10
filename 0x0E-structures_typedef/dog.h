@@ -8,4 +8,12 @@ typedef struct dog
 	char *owner;
 } dog;
 
+int main(void)
+{
+	struct dog dog;
+	dog dog2;
+
+	return (0);
+}
+
 #endif 
