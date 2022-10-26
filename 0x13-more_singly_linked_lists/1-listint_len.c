@@ -1,17 +1,19 @@
-#include <stdio.h>
 #include "lists.h"
 /**
-*listint_len - prints all the elements of a listint_t list
-*@h: element of listint_t
-*Return: number of elements of the listint_t list
-*/
+ * listint_len - returns thenumber of element
+ * @h: pointer to first element on list
+ *
+ * Return: number of elements
+ */
 size_t listint_len(const listint_t *h)
 {
-	size_t i;
+	int count;
 
-	for (i = 0; h != NULL; ++i)
+	count = 0;
+	while (h != NULL)
 	{
 		h = h->next;
+		count++;
 	}
-	return (i);
+	return (count);
 }
